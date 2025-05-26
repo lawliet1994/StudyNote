@@ -13,4 +13,5 @@ dependencies = [
     "rank-bm25>=0.2.2",
     "requests>=2.32.3",
     "streamlit>=1.45.0",
+    "watchdog>=6.0.0",
 ]

@@ -14,7 +14,7 @@ graph TD
     B -- 否 --> D[继续处理]
     D --> B
     C --> E{test}
-    E -- 是 --> A
+    E -- 是 --> B
 """
 
 html_code = f"""
