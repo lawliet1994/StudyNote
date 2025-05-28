@@ -13,6 +13,9 @@ pages = {
         "About": [
             st.Page('./tools/test.py',title='about',icon="ℹ️"),    
         ],
+        "工具":[
+            st.Page('./tools/file_transfer.py',title='文件传输助手',icon="📂"),
+        ]
         # "Contact": [],
     }
 pg = st.navigation(pages)
